@@ -1,0 +1,140 @@
+body{
+    background: url("/image/tec.jpeg");
+    background-size: 1080px 895px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+h3{
+    display: inline;
+    color: rgb(63, 206, 127);
+    border: 2px dotted blue;
+}
+
+/*
+p{
+color: yellow;
+}
+h1{
+color: blueviolet;
+}
+h2{
+    color: red;
+}
+#secondparagraph{
+    color: blue;
+
+}
+
+.yellow{
+    color:blanchedalmond;
+    border:2px solid blue;
+}*/
+
+.header{
+    
+}
+.header a{
+    border: 3px solid blueviolet;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 50px;
+    padding: 20px;
+    text-shadow: 2px 2px rgb(128, 180, 240);
+}
+.navbar{
+   max-width: 500px;
+    border: 15px solid white;
+    background-color: lightblue;
+    padding: 15px;
+    margin: auto;
+    outline: 15px solid lawngreen;
+    font-family: 'Pacifico', cursive;
+}
+.navbar p{
+    text-indent: 50px;
+    text-align: justify;
+    
+  
+
+}
+#innerLink{
+    display: block;
+    width: 160px;
+    margin: auto;
+    padding: 25px;
+    background-color: lightcoral;
+    border-radius: 10px 10px;
+    text-decoration: none;
+}
+
+#innerLink:link{
+    background-color: rgb(200, 231, 24);
+    color: black;
+    text-decoration: none;
+}
+
+#innerLink:visited{
+    background-color: rgb(96, 174, 238);
+    color: brown;
+    text-decoration: none;
+}
+
+#innerLink:hover{
+    background-color: rgb(255, 122, 233);
+    color: white;
+    text-decoration: none;
+}
+
+#innerLink:checked{
+    background-color: rgb(122, 245, 66);
+    color: white;
+    text-decoration: none;
+}
+.list{
+    width:30% ;
+    margin: auto;
+    background-color: lightcyan;
+    padding: 50px;
+    margin-top: 100px;
+}
+.list ol li{
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(37, 172, 172);
+}
+.mytable{
+    padding: 200px;
+    margin-top: 20px;
+    background-color: lightgrey;
+}
+.tableContainer{
+   width: 50%;
+   margin: auto;
+   padding: 50px;
+   background-color: aquamarine; 
+} 
+.tableContainer table{
+  border: 2px solid blueviolet;
+  border-collapse:collapse ;
+ } 
+.tableContainer table th {
+    border: 2px solid blueviolet;
+    padding: 15px;
+    background-color:gray;
+    color: azure;
+   } 
+
+.tableContainer table td {
+    border: 2px solid blueviolet;
+    padding: 15px;
+    background-color:gray;
+    color: azure;
+   } 
+.myDisplay{
+    padding: 25px;
+    border: 3px solid red;
+    display: inline;
+}
